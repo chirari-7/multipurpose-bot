@@ -1,6 +1,6 @@
 # multipurpose-bot
 
-a multipurpose bot made with dbd.js!
+a multipurpose discord bot made with dbd.js!
 
 ### 💖 installation and setup
 
