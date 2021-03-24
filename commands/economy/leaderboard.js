@@ -1,0 +1,12 @@
+module.exports = ({
+    name: "leaderboard",
+    aliases: ['lb'],
+    description: "Check the money leaderboard",
+    usage: "",
+    category: "economy",
+    code: `$title[Money Leaderboard]
+    $color[RANDOM]
+    $description[$globalUserLeaderBoard[money;asc; {top}. {username} - {value}💴]]
+    $cooldown[5s;{description:A bit too fast there. Wait for **time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;leaderboard;$authorID;yes]ms}]
+    $onlyIf[$checkContains[$channelType;text;news]==true;]`
+})
