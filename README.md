@@ -73,21 +73,21 @@ then to start the bot, type `node index.js`.
 then there you go!
 
 ### 💝 features and commands
-utility:
+🔨 utility:
 ```
 help
 invite
 ping
 setprefix
 ```
-leveling:
+⬆ leveling:
 ```
 leveling enable/disable [enabled by default]
 levels
 exp
 expcooldown
 ```
-economy:
+💲 economy:
 ```
 daily
 work
@@ -96,7 +96,7 @@ balance
 leaderboard
 award [Bot Developer only command]
 ```
-information:
+ℹ information:
 ```
 commandinfo
 userinfo
@@ -104,5 +104,18 @@ channelinfo
 roleinfo
 serverinfo
 ```
+🎵 music:
+\`\`\`
+play
+stop
+pause
+resume
+skip
+queue
+volume
+loopqueue
+loopsong
+nowplaying
+\`\`\`
 
 if you ever have encoutered a problem/bug, just dm me on [discord](https://discord.com/users/773519675928608838/)!
