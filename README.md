@@ -64,7 +64,7 @@ bot.status({
 bot.status({
     text: "text", 
     type: "STREAMING", 
-    url: "Enter URL"
+    url: "enter url/link"
     })
 ```
 
