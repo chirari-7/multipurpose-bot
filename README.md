@@ -105,7 +105,7 @@ roleinfo
 serverinfo
 ```
 🎵 music:
-\`\`\`
+```
 play
 stop
 pause
@@ -116,6 +116,6 @@ volume
 loopqueue
 loopsong
 nowplaying
-\`\`\`
+```
 
 if you ever have encoutered a problem/bug, just dm me on [discord](https://discord.com/users/773519675928608838/)!
