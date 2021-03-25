@@ -70,7 +70,7 @@ bot.status({
 
 in the console, type `npm i dbd.js` and `npm i dbd.db`.
 then to start the bot, type `node index.js`.
-then there you go!
+then there you go! you have made your multipurpose bot!
 
 ### 💝 features and commands
 🔨 utility:
