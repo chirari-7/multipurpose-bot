@@ -5,7 +5,7 @@ module.exports = ({
     usage: "",
     category: "music",
     code: `$color[RANDOM]
-    $description[🔁 $replaceText[$replaceText[$loopSong;true;Now looping the Song!];false;No longer looping the Song.]]
+    $description[🔁 $replaceText[$replaceText[$loopSong;true;Now looping the song!];false;No longer looping the song.]]
     $onlyIf[$voiceID!=;{color:RANDOM}{description:You must be in a Voice Channel!}]
     $onlyIf[$queueLength>0;{color:RANDOM}{description:The queue is empty!}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
