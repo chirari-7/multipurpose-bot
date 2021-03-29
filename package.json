@@ -1,7 +1,7 @@
 {
-  "name": "stalker",
+  "name": "multipurpose-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "a multipurpose discord bot made with dbd.js!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
