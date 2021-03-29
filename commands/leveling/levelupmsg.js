@@ -8,6 +8,6 @@ module.exports = ({
    $setUserVar[level;$sum[$getUserVar[level];1]]
    $onlyIf[$getUserVar[req]<$getUserVar[xp];]
    $onlyIf[$checkContains[$channelType;text;news]==true;]
-   $onlyIf[$getServerVar[leveling]==enable;]
+   $onlyIf[$checkContains[$getServerVar[leveling];enable;enabled]==true;]
    `
    })
