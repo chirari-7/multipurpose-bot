@@ -38,6 +38,7 @@ userinfo
 channelinfo
 roleinfo
 serverinfo
+botinfo
 \`\`\`
 Music:
 \`\`\`
