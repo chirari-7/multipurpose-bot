@@ -103,6 +103,7 @@ userinfo
 channelinfo
 roleinfo
 serverinfo
+botinfo
 ```
 🎵 music:
 ```
