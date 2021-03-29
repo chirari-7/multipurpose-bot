@@ -21,9 +21,19 @@ bot.status({
     // bot.status({
     // text: "text", 
     // type: "STREAMING", 
-    // url: "Enter URL"
+    // url: "enter url/link"
     //   })
     // remove `//` in each side
+
+    bot.musicStartCommand({
+      channel: "$channelID",
+      code: `$sendMessage[{description:▶ Now playing - **[$songInfo[title]\\]($songInfo[url])**}{color:RANDOM}{thumbnail:$songInfo[thumbnail]}{timestamp:ms};no]`
+      })
+
+      bot.musicEndCommand({
+        channel: "$channelID",
+        code: `$sendMessage[{description:⏹ There's no one playing music anymore. I'm leaving the Voice Channel!}{color:RANDOM}{delete:10s};no]`
+        })
 
     bot.variables(require('./commands/vars.js'))
 
