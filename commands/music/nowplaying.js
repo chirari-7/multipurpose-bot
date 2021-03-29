@@ -5,7 +5,7 @@ module.exports = ({
     usage: "",
     category: "music",
     code: `$color[RANDOM]
-    $description[⏯ Current playing Song **[$songInfo[title]\\]($songInfo[url])**]
+    $description[⏯ Current playing song - **[$songInfo[title]\\]($songInfo[url])**]
     $thumbnail[$songinfo[thumbnail]]
     $addTimestamp
     $onlyIf[$queueLength>0;{color:RANDOM}{description:The queue is empty!}]
