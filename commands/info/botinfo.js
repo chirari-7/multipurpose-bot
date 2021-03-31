@@ -7,7 +7,7 @@ module.exports = ({
     code: `$title[Botinfo ($username[$clientID])]
     $color[RANDOM]
     $thumbnail[$userAvatar[$clientID]]
-    $addField[CPU Usage; $cpu%]
+    $addField[CPU Usage; $cpu/100]
     $addField[Ping; $ping]
     $addField[Uptime;$uptime]
     $addField[Commands; $commandsCount]
