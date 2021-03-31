@@ -4,7 +4,7 @@ module.exports = ({
     description: "Change the server EXP cooldown",
     category: "leveling",
     usage: "expcooldown <number in seconds>",
-    code: `$description[✅ Done! I set EXP cooldown to "$message".]
+    code: `$description[✅ I set EXP cooldown to "$message".]
     $color[RANDOM]
     $setServerVar[expcd;$message]
     $onlyIf[$message!=;{description:You have to specify a message to change the server EXP cooldown!(In seconds)
