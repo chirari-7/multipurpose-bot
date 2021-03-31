@@ -5,7 +5,7 @@ module.exports = ({
     usage: "leveling <enable/disable>",
     category: "leveling",
     code: `$color[RANDOM]
-    $description[✅ Done! Leveling is now "$getServerVar[leveling]".]
+    $description[✅ Leveling is now "$getServerVar[leveling]".]
     $setServerVar[leveling;$toLowerCase[$message[1]]]
     $onlyIf[$getServerVar[leveling]!=$message[1];{description: Leveling is already $message[1]!}{color:RANDOM}]
     $onlyIf[$checkContains[$message[1];enable;disable;enabled;disabled]==true;{description: Choose only between "enable" or "disable"!}{color:RANDOM}]
