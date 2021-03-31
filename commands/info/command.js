@@ -1,8 +1,8 @@
 module.exports = ({
-    name: "commandinfo",
-    aliases: ['cmdinfo'],
+    name: "command",
+    aliases: ['cmd'],
     description: "Know information about a specific command",
-    usage: "commandinfo <command name>",
+    usage: "command <command name>",
     category: "info",
     code:
     `
