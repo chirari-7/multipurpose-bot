@@ -15,7 +15,7 @@ module.exports = ({
     $addField[ID; $findMember[$message];yes]
     $addField[Platform; $replaceText[$replaceText[$replaceText[$replaceText[$platform[$findMember[$message]];None;None];web;Website];mobile;Phone];desktop;PC];yes]
     $addField[State; $replaceText[$replaceText[$checkCondition[$checkContains[$getCustomStatus[$findMember[$message];state];https;discord.gg;.gg;.com;.xyz;.app;.net;.org;.info;.co;.edu;.gov;.tv;.club]==true];true;Hidden];false;$replaceText[$getCustomStatus[$findMember[$message];emoji];none;] $toLocaleUpperCase[$getCustomStatus[$findMember[$message];state]]];yes]
-    $addField[Status; $replaceText[$replaceText[$replaceText[$replaceText[$status[$findMember[$message]];offline;⚫ Offline];online;🟢 Online];dnd;🔴 Do not disturb];idle;🟡 Idle];yes]
+    $addField[Status; $replaceText[$replaceText[$replaceText[$replaceText[$status[$findMember[$message]];offline;Offline];online;Online];dnd;Do not disturb];idle;Idle];yes]
     $addField[Creation Date; $creationDate[$findMember[$message]];yes]
     $addField[Join Date; $memberJoinedDate[$findMember[$message]];yes]
     $addTimestamp
