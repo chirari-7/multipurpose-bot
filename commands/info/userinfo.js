@@ -2,7 +2,7 @@ module.exports = ({
     name: "userinfo",
     aliases: ['userinformation', 'whois'],
     description: "Know information about a user",
-    usage: "userinfo <user>",
+    usage: "userinfo (user)",
     category: "info",
     code: `$color[RANDOM]
     $thumbnail[$userAvatar[$findMember[$message]]]
