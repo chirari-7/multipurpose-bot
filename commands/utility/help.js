@@ -49,6 +49,7 @@ resume
 skip
 skipto
 queue
+lyrics
 volume
 loopqueue
 loopsong
