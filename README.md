@@ -112,6 +112,7 @@ stop
 pause
 resume
 skip
+skipto
 queue
 volume
 loopqueue
