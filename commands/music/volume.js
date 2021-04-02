@@ -4,7 +4,7 @@ module.exports = ({
     code: `$color[RANDOM]
     $description[🔊 Change the Volume to "$message".]
     $volume[$message]
-    $onlyIf[$voiceID==$voiceID[$clientID];{{color:RANDOM}{description:You must be in the same Voice Channel as the Bot!} {field:Bot's Voice Channel:<#$voiceID[$clientID]>} {field:User Voice Channel:<#$voiceID>}] 
+    $onlyIf[$voiceID==$voiceID[$clientID];{color:RANDOM}{description:You must be in the same Voice Channel as the Bot!} {field:Bot's Voice Channel:<#$voiceID[$clientID]>} {field:User Voice Channel:<#$voiceID>}] 
     $onlyIf[$queueLength>0;{description:The queue is empty!}{color:RANDOM}]
     $onlyIf[$isNumber[$message[1]]==true;{description: Argument must be a number!}{color:RANDOM}]
     $onlyIf[$message[1]<=200;{description: The max Volume is "200"!}{color:RANDOM}] 
