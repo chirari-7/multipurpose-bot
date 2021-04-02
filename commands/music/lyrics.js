@@ -1,8 +1,8 @@
 module.exports = ({
     name: "lyrics",
     aliases: ['ly', 'l'],
-    description: "Get lyrics from the current playing song",
-    usage: "",
+    description: "Get lyrics from the current playing or a specific song",
+    usage: "lyrics (song)",
     category: "music",
     code: `$color[RANDOM]
     $if[$argsCount>0]
