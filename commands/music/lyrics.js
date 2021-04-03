@@ -16,5 +16,6 @@ module.exports = ({
     $endif
     $botTyping
     $onlyIf[$voiceID!=;{color:RANDOM}{description:You must be in a Voice Channel!}]
-    $onlyIf[$checkContains[$channelType;text;news]==true;]`
+    $onlyIf[$checkContains[$channelType;text;news]==true;]
+$onlyBotPerms[embedlinks; {description:❌ I require these permissions - **Embed Links**}{color:RANDOM}]`
 })
