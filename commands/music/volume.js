@@ -1,6 +1,9 @@
 module.exports = ({
     name: "volume",
     aliases: ['vol', 'v'],
+    description: "Change the music volume",
+    category: "music",
+    usage: "volume <number>",
     code: `$color[RANDOM]
     $description[🔊 Change the Volume to "$message".]
     $volume[$message]
