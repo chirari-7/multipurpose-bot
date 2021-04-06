@@ -2,7 +2,7 @@ module.exports = ({
     name: "channelinfo",
     aliases: ['channelinformation', 'chnlinformation', 'chnlinfo'],
     description: "Know information about a specific server channel",
-    usage: "channelinfo <channel>",
+    usage: "channelinfo (channel)",
     category: "info",
     code: `$color[RANDOM]
     $author[$userTag;$authorAvatar]
