@@ -20,5 +20,6 @@ module.exports = ({
     $addTimestamp
     $footer[Requested by $userTag;$authorAvatar]
     $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;userinfo;$authorID;yes]ms}]
+    $onlyIf[$findMember[$message;no]!=;{description: :x: Couldn't find that member in the server!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
