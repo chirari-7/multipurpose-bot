@@ -10,8 +10,8 @@ module.exports = ({
     $addField[Viewable; $replaceText[$replaceText[$checkCondition[$channel[$findServerChannel[$message];isviewable]==true];true;Yes];false;No];yes]
     $addField[ID; $findServerChannel[$message];yes]
     $addField[Position; $channel[$findServerChannel[$message];rawposition];yes]
-    $addField[Topic; $channelTopic[$findServerChannel[$message]];yes]
-    $addField[Type; $replaceText[$replaceText[$checkCondition[$channelTopic[$findServerChannel[$message]]==true];true;$channelTopic[$findServerChannel[$message]]];false;None];yes]
+    $addField[Topic; $replaceText[$replaceText[$checkCondition[$channelTopic[$findServerChannel[$message]]!=];true;$channelTopic[$findServerChannel[$message]]];false;None];yes]
+    $addField[Type; $toLocaleUpperCase[$channelType[$findServerChannel[$message]]];yes]
     $addField[Creation Date; $channel[$findServerChannel[$message];created];yes]$addTimestamp
     $onlyIf[$findServerChannel[$message;no]!=;{description: :x: That server channel doesn't exist!}{color:RANDOM}]
     $suppressErrors[{description:An error occurred! Please contact the Bot Developer if this keeps happening!}{color:RANDOM}]
