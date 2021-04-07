@@ -18,9 +18,9 @@ const bot = new dbd.Bot({
 - don't change/remove anything in `vars.js` except for the prefix.
 > example:
 ```js
-const vars = {
+module.exports = ({
 prefix: ";", // you can change it with desired prefix
-}
+})
 ```
 
 - now, for the bot status.
