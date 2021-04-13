@@ -98,7 +98,7 @@ award [Bot Developer only command]
 ```
 ℹ information:
 ```
-commandinfo
+command
 userinfo
 channelinfo
 roleinfo
