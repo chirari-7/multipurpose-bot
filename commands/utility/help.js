@@ -11,6 +11,7 @@ module.exports = ({
 Utility:
 \`\`\`
 help
+command
 invite
 ping
 setprefix
@@ -33,7 +34,6 @@ award [Bot Developer only\\]
 \`\`\`
 Information:
 \`\`\`
-command
 userinfo
 channelinfo
 roleinfo
