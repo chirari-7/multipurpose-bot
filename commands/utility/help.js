@@ -33,7 +33,7 @@ award [Bot Developer only\\]
 \`\`\`
 Information:
 \`\`\`
-commandinfo
+command
 userinfo
 channelinfo
 roleinfo
