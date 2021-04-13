@@ -76,6 +76,7 @@ then there you go! you have made your multipurpose bot!
 🔨 utility:
 ```
 help
+command
 invite
 ping
 setprefix
@@ -98,7 +99,6 @@ award [Bot Developer only command]
 ```
 ℹ information:
 ```
-command
 userinfo
 channelinfo
 roleinfo
