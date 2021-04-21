@@ -11,7 +11,7 @@ module.exports = ({
 })
 
 // but if you're using the latest version of dbd.js (dbd.js@latest), use the code below
-// remember to remove the `//` every line below
+// remember to remove the `//` every line below then delete the code above
 
 // module.exports = ({
 //    name: "invite",
