@@ -40,6 +40,7 @@ channelinfo
 roleinfo
 serverinfo
 botinfo
+developerinfo
 \`\`\`
 Music:
 \`\`\`
