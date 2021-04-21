@@ -8,6 +8,7 @@ module.exports = ({
     $author[$userTag[$findMember[$messageSlice[1]]];$userAvatar[$findMember[$messageSlice[1]]]]
     $description[<@$findMember[$messageSlice[1]]> has been awarded $message[1]💴!]
     $setGlobalUserVar[money;$sum[$getGLobalUserVar[money;$findMember[$messageSlice[1]]];$message[1]];$findMember[$messageSlice[1]]]
+    $onlyIf[$isNumber[$message[1]]==true;{description: Argument must be a number!}{color:RANDOM}]
     $onlyIf[$message[1]!=;{description: Specify the amount to award.}{color:RANDOM}]
     $onlyIf[$findMember[$message[2]]!=;{description: <@$botOwnerID>, maybe try mentioning a user?}{color:RANDOM}]
     $onlyIf[$isBot[$findMember[$message[2]]]==false;{description: Why not try mention a user that is not a bot?}{color:RANDOM}]
