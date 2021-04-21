@@ -2,12 +2,12 @@ module.exports = ({
     name: "award",
     aliases: ['reward'],
     description: "Award a user some money",
-    usage: "award <user> <amount>",
+    usage: "award <amount> <user>",
     category: "economy",
     code: `$color[RANDOM]
-    $author[$userTag[$findMember[$message[2]]];$userAvatar[$findMember[$message]]]
-    $description[<@$findMember[$message[2]]> has been awarded $message[1]💴!]
-    $setGlobalUserVar[money;$sum[$getGLobalUserVar[money;$findMember[$message[2]]];$message[1]];$findMember[$message[2]]]
+    $author[$userTag[$findMember[$messageSlice[1]]];$userAvatar[$findMember[$message]]]
+    $description[<@$findMember[$messageSlice[1]]> has been awarded $message[1]💴!]
+    $setGlobalUserVar[money;$sum[$getGLobalUserVar[money;$findMember[$messageSlice[1]]];$message[1]];$findMember[$messageSlice[1]]]
     $onlyIf[$message[1]!=;{description: Specify the amount to award.}{color:RANDOM}]
     $onlyIf[$findMember[$message[2]]!=;{description: <@$botOwnerID>, maybe try mentioning a user?}{color:RANDOM}]
     $onlyIf[$isBot[$findMember[$message[2]]]==false;{description: Why not try mention a user that is not a bot?}{color:RANDOM}]
