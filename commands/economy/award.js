@@ -5,7 +5,7 @@ module.exports = ({
     usage: "award <amount> <user>",
     category: "economy",
     code: `$color[RANDOM]
-    $author[$userTag[$findMember[$messageSlice[1]]];$userAvatar[$findMember[$message]]]
+    $author[$userTag[$findMember[$messageSlice[1]]];$userAvatar[$findMember[$messageSlice[1]]]]
     $description[<@$findMember[$messageSlice[1]]> has been awarded $message[1]💴!]
     $setGlobalUserVar[money;$sum[$getGLobalUserVar[money;$findMember[$messageSlice[1]]];$message[1]];$findMember[$messageSlice[1]]]
     $onlyIf[$message[1]!=;{description: Specify the amount to award.}{color:RANDOM}]
