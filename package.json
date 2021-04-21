@@ -19,7 +19,7 @@
   "dependencies": {
     "dbd.db": "^1.4.4",
     "dbd.express": "^1.0.1",
-    "dbd.js": "^2.2.6", // you may change it to the latest dbd.js version if you want to
+    "dbd.js": "^2.2.6",
     "dbd.js-utils": "^0.1.1"
   }
 }
