@@ -9,7 +9,7 @@ module.exports = ({
     $thumbnail[$userAvatar[$clientID]]
     $addField[RAM; $ramMB]
     $addField[CPU Usage; $cpu/100]
-    $addField[Ping; $ping]
+    $addField[Ping; $pingms]
     $addField[Uptime;$uptime]
     $addField[Commands; $commandsCount]
     $addField[Users;$allMembersCount]
