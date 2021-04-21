@@ -107,6 +107,7 @@ channelinfo
 roleinfo
 serverinfo
 botinfo
+developerinfo
 ```
 🎵 music:
 ```
