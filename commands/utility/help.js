@@ -18,7 +18,7 @@ setprefix
 \`\`\`
 Leveling:
 \`\`\`
-leveling enable/disable [enabled by default\\]
+leveling enable/disable (enabled by default)
 levels
 exp
 expcooldown
@@ -30,7 +30,7 @@ work
 beg
 balance
 leaderboard
-award [Bot Developer only\\]
+award (Bot Developer only)
 \`\`\`
 Information:
 \`\`\`
