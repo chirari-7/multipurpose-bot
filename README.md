@@ -95,6 +95,7 @@ expcooldown
 daily
 work
 beg
+pay
 balance
 leaderboard
 award (Bot Developer only command)
