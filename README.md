@@ -69,6 +69,7 @@ bot.status({
 ```
 
 in the console, type `npm i dbd.js@2.2.6` and `npm i dbd.db`.
+or, if you want the latest one, do `npm i dbd.js@latest` and `npm i dbdjs.db`
 then to start the bot, type `node index.js`.
 then there you go! you have made your multipurpose bot!
 
