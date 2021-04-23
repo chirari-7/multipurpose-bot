@@ -62,5 +62,6 @@ $replaceText[$replaceText[$checkCondition[$splitText[11]==];false;🔟 - $splitT
 //    $onlyIf[$message!=;{description: You have to specify a message to make a poll!}{color:RANDOM}]
 //    $onlyBotPerms[addreactions;{description:❌ I require these permissions - **Add Reactions**}{color:RANDOM}]
 //    $onlyPerms[managemessages;{description:❌ You require these permissions - **Manage Messages** }{color:RANDOM}]
-//    $onlyIf[$checkContains[$channelType;text;news]==true;]`
+//    $onlyIf[$checkContains[$channelType;text;news]==true;]
+//    $suppressErrors`
 // })
