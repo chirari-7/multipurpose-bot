@@ -3,7 +3,7 @@ module.exports = ({
     aliases: ['botstats'],
     description: "Check the bot's information/stats",
     usage: "",
-    category: "info",
+    category: "information",
     code: `$title[Botinfo ($username[$clientID])]
     $color[RANDOM]
     $thumbnail[$userAvatar[$clientID]]
