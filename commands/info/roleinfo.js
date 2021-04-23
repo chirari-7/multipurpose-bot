@@ -3,7 +3,7 @@ module.exports = ({
     aliases: ['roleinformation'],
     description: "Know information about a specific server role",
     usage: "roleinfo <role>",
-    category: "info",
+    category: "information",
     code: `$color[$role[$findRole[$message];hex]]
     $author[$userTag;$authorAvatar]
     $title[Role Information]
