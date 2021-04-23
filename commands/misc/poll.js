@@ -4,7 +4,7 @@ module.exports = ({
     name: "poll",
     aliases: ['survey'],
     description: "Make a poll! (Up to 10 options only)",
-    usage: "poll <question/option 1/option 2/option 3>",
+    usage: "poll <question/option 1/option 2/...>",
     category: "miscellaneous",
     code: `$color[RANDOM]
     $author[Made by $userTag;$authorAvatar]
@@ -38,7 +38,7 @@ $replaceText[$replaceText[$checkCondition[$splitText[11]==];false;🔟 - $splitT
 //    name: "poll",
 //    aliases: ['survey'],
 //    description: "Make a poll! (Up to 10 options only)",
-//    usage: "poll <question/option 1/option 2/option 3>",
+//    usage: "poll <question/option 1/option 2/...>",
 //    category: "miscellaneous",
 //    code: `$color[RANDOM]
 //    $author[Made by $userTag;$authorAvatar]
