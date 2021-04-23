@@ -3,7 +3,7 @@ module.exports = ({
     aliases: ['serverinformation', 'servinformation', 'servinfo'],
     description: "Know information about the server",
     usage: "",
-    category: "info",
+    category: "information",
     code: `$color[RANDOM]
     $thumbnail[$serverIcon]
     $author[$serverName;$serverIcon]
