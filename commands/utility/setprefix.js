@@ -9,6 +9,6 @@ module.exports = ({
     $setServerVar[prefix;$message]
     $onlyIf[$message[1]!=;{description:You have to specify a message to change the server prefix! 
     Example - $getServerVar[prefix]}{color:RANDOM}]
-    $onlyPerms[admin;{description:❌ You require these permissions - **Administrator** }{color:RANDOM}]
+    $onlyPerms[manageserver;{description:❌ You require these permissions - **Manage Server** }{color:RANDOM}
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
     })
