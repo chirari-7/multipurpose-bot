@@ -124,3 +124,14 @@ loopqueue
 loopsong
 nowplaying
 ```
+🌌 miscellaneous
+```
+avatar
+membercount
+emojicount
+poll
+```
+💻 developer
+```
+eval
+```
