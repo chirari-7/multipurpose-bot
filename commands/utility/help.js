@@ -29,6 +29,7 @@ daily
 work
 beg
 pay
+roulette
 balance
 leaderboard
 award (Bot Developer only)
