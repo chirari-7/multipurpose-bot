@@ -6,6 +6,6 @@ module.exports = ({
     code: `$color[RANDOM]
     $description[You begged from $randomMention and got $random[10;500]💴!]
     $setGlobalUserVar[money;$sum[$getGlobalUserVar[money];$random[10;500]]]
-    $cooldown[25s;{description: Don't beg so much... Do it again in **%time%!**}{color:RANDOM}]
+    $globalCooldown[25s;{description: Don't beg so much... Do it again in **%time%!**}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`    
 })
