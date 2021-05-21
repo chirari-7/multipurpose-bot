@@ -7,6 +7,6 @@ module.exports = ({
     code: `$title[Money Leaderboard]
     $color[RANDOM]
     $description[$globalUserLeaderBoard[money;asc; {top}. {username} - {value}💴]]
-    $cooldown[5s;{description:A bit too fast there. Wait for **time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;leaderboard;$authorID;yes]ms}]
+    $cooldown[5s;{description:A bit too fast there. Wait for **time%**!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
