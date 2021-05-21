@@ -11,7 +11,7 @@ module.exports = ({
 () - Optional arguments]
     $color[RANDOM]
     $addField[Usage;$replaceText[$replaceText[$checkCondition[$commandInfo[$message[1];usage]!=];true;$commandInfo[$message[1];usage]];false;None];yes]
-    $addField[Aliases;$toLocaleUpperCase[$replaceText[$replaceText[$checkCondition[$commandInfo[$message[1];aliases]!=];true;$replaceText[$commandInfo[$message[1];aliases];,;, ]];false;None]]]
+    $addField[Aliases;$replaceText[$replaceText[$checkCondition[$commandInfo[$message[1];aliases]!=];true;$replaceText[$commandInfo[$message[1];aliases];,;, ]];false;None]]
     $addField[Description;$replaceText[$replaceText[$checkCondition[$commandInfo[$message[1];description]!=];true;$commandInfo[$message[1];description]];false;None]]
     $addField[Category;$toLocaleUpperCase[$replaceText[$replaceText[$checkCondition[$commandInfo[$message[1];category]!=];true;$commandInfo[$message[1];category]];false;None]];yes]
     $onlyIf[$commandInfo[$message[1];name]!=;{description:❌ That is not a valid command!}{color:RANDOM}]
