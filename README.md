@@ -96,6 +96,7 @@ daily
 work
 beg
 pay
+roulette
 balance
 leaderboard
 award (Bot Developer only command)
@@ -131,7 +132,7 @@ membercount
 emojicount
 poll
 ```
-💻 developer
+👩‍💻 developer
 ```
 eval
 ```
