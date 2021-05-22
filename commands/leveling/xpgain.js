@@ -6,5 +6,6 @@ module.exports = ({
    
    $onlyIf[$isBot[$authorID]==false;]
    $onlyIf[$checkContains[$channelType;text;news]==true;]
-   $onlyIf[$checkContains[$getServerVar[leveling];enable;enabled]==true;]` 
+   $onlyIf[$checkContains[$getServerVar[leveling];enable;enabled]==true;]
+   $suppressErrors` 
    })
