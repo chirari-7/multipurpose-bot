@@ -17,7 +17,7 @@ module.exports = ({
     $onlyIf[$findRole[$message]!=;{description: :x: That role doesn't exist!}{color:RANDOM}]
     $onlyIf[$message!=;{description:You have to specify a role to see that role's information!}{color:RANDOM}]
     $suppressErrors[{description:An error occurred! Please contact the Bot Developer if this keeps happening!}{color:RANDOM}]
-    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;roleinfo;$authorID;yes]ms}]
+    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]
     `
 })
