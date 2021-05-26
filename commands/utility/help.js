@@ -16,6 +16,12 @@ invite
 ping
 setprefix
 \`\`\`
+Fun:
+\`\`\`
+meme
+gun
+rip
+\`\`\`
 Leveling:
 \`\`\`
 leveling enable/disable (enabled by default)
