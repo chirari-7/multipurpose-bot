@@ -19,5 +19,5 @@ module.exports = ({
     $addField[Created;$creationDate[$clientID]]
     $addField[Developer;$userTag[$botOwnerID]]
     $addTimestamp
-    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;botinfo;$authorID;yes]ms}]`
+    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]`
     })
