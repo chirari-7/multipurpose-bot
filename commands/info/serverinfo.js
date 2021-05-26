@@ -31,6 +31,6 @@ module.exports = ({
     Role Count: $roleCount]$replaceText[$replaceText[$checkCondition[$emojiCount==0];true;];false;
     Emoji Count: $emojiCount]$replaceText[$replaceText[$checkCondition[$serverBoostCount==0];true;];false;]]
     $addTimestamp  
-$cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;serverinfo;$authorID;yes]ms}]
+$cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
 $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
