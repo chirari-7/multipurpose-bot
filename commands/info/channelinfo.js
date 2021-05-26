@@ -15,6 +15,6 @@ module.exports = ({
     $addField[Creation Date; $channel[$findServerChannel[$message];created];yes]$addTimestamp
     $onlyIf[$findServerChannel[$message;no]!=;{description: :x: That server channel doesn't exist!}{color:RANDOM}]
     $suppressErrors[{description:An error occurred! Please contact the Bot Developer if this keeps happening!}{color:RANDOM}]
-    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;channelinfo;$authorID;yes]ms}]
+    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
