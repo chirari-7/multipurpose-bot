@@ -16,7 +16,7 @@ module.exports = ({
     $addField[Status; $replaceText[$replaceText[$replaceText[$replaceText[$status[$botOwnerID];offline;Offline];online;Online];dnd;Do not disturb];idle;Idle]]
     $addField[Joined Discord;$creationDate[$botOwnerID]]
     $addTimestamp
-    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;botinfo;$authorID;yes]ms}]
+    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
     $botTyping`
     })
 
@@ -39,6 +39,6 @@ module.exports = ({
 //    $addField[Status; $replaceText[$replaceText[$replaceText[$replaceText[$status[$botOwnerID];offline;Offline];online;Online];dnd;Do not disturb];idle;Idle]]
 //    $addField[Joined Discord;$creationDate[$botOwnerID]]
 //    $addTimestamp
-//    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}{delete:$getCooldownTime[globalUser;botinfo;$authorID;yes]ms}]
+//    $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
 //    $botTyping`
 //    })
