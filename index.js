@@ -33,6 +33,7 @@ bot.status({
       })
 
 // for dbd.js latest version
+// remove all `//`
 // delete the code above
 
 // bot.musicStartCommand({
