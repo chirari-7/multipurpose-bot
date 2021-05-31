@@ -2,7 +2,7 @@ const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({
   mobile: false, // you can change it to "true" if you want a mobile status
-  token: "TOKEN", // change TOKEN with your bot token
+  token: "NzkwNDg0MzA0NjMxMDM3OTYz.X-BR4A.ES8DD1DAxqnZycTOox0Yiil3Nc0", // change TOKEN with your bot token
   prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
 })
 
@@ -25,10 +25,20 @@ bot.status({
     //   })
     // remove `//` in each side
 
+// dbd.js 2.2.6 version    
+
     bot.musicStartCommand({
       channel: "$channelID",
       code: `$sendMessage[{description:▶ Now playing - **[$songInfo[title]\\]($songInfo[url])**}{color:RANDOM}{thumbnail:$songInfo[thumbnail]}{timestamp:ms};no]`
       })
+
+// for dbd.js latest version
+// delete the code above
+
+// bot.musicStartCommand({
+//  channel: "$channelID",
+//  code: `$sendMessage[{description:▶ Now playing - **[$songInfo[title]]($songInfo[url])**}{color:RANDOM}{thumbnail:$songInfo[thumbnail]}{timestamp:ms};no]`
+//  })
 
       bot.musicEndCommand({
         channel: "$channelID",
