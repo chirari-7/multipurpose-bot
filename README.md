@@ -2,7 +2,7 @@
 
 a multipurpose discord bot made with dbd.js/aoi.js!
 
-auguat 27, 2021
+august 27, 2021
 i will no longer continue to do updates with this repository. sorry for the inconvenience.
 
 ### 💖 installation and setup
